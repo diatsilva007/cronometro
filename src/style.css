@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif; /* Fonte futurista */
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* Gradiente escuro futurista */
+    background: url('./assets/cenario-urbano-cyberpunk.png') no-repeat center center fixed; /* Imagem de fundo */
+    background-size: cover; /* Cobrir toda a tela */
+    color: #00ffe7; /* Cor neon */
+    overflow: hidden; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #00ffe7;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+    box-shadow: 0 0 20px #00ffe7, 0 0 50px #ff007f; /* Efeito neon */
+    position: relative; /* Necessário para posicionar o temporizador */
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(0 0 20px #ff007f); /* Sombra neon */
+    animation: pulse 2s infinite alternate; /* Animação de pulsação */
+}
+
+.timer {
+    position: absolute; /* Posiciona o temporizador sobre a imagem */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o ponto de referência para o centro */
+    font-size: 50px;
+    color: #00ffe7;
+    text-shadow: 0 0 10px #00ffe7, 0 0 20px #ff007f, 0 0 30px #00ffe7;
+    animation: glow 1.5s infinite alternate; /* Animação de brilho */
+    pointer-events: none; /* Garante que o texto não interfira nos cliques */
+}
+
+.areaBtn {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.botao {
+    width: 150px;
+    background: linear-gradient(90deg, #ff007f, #00ffe7); /* Gradiente neon nos botões */
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #00ffe7;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 10px #ff007f, 0 0 20px #00ffe7;
+}
+
+.botao:hover {
+    background: #00ffe7;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff007f, 0 0 40px #00ffe7;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #00ffe7, 0 0 20px #ff007f;
+    }
+    to {
+        text-shadow: 0 0 20px #00ffe7, 0 0 40px #ff007f;
+    }
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+        filter: drop-shadow(0 0 20px #ff007f);
+    }
+    to {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 30px #ff007f);
+    }
+}
