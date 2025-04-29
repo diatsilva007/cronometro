@@ -76,7 +76,7 @@ No diretório do projeto, você pode executar:
 
 3. Use o botão "Continuar" para reiniciar a contagem de onde parou.
 
-5. Clique em "Resetar" para reiniciar do zero.
+5. Clique em "Limpar" para reiniciar do zero.
 
 
 ## 🤝 Contribuindo
