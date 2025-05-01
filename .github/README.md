@@ -92,6 +92,19 @@ Contribuições são sempre bem-vindas! Para contribuir:
 
 5. Abra um Pull Request.
 
+<div align="center">
+  
+# Feito com 💙
+| [<img src="https://avatars.githubusercontent.com/u/143373573?v=4" width="100" height="100"><br><sub>Diogo Ataide</sub>](https://github.com/diatsilva007)
+| :---: |
+
+ <p><img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/></p>
+ 
+ # 🙅‍♂️
+ 
+ </div>
+
+
 
 
 
