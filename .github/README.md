@@ -1,6 +1,6 @@
 # ⏱️ Cronômetro
 
-Um cronômetro simples com tema Cyberpunk 2077 desenvolvido com React, ideal para acompanhar o tempo de atividades, estudos ou exercícios.
+> Um cronômetro simples com tema Cyberpunk 2077 desenvolvido com React, ideal para acompanhar o tempo de atividades, estudos ou exercícios.
 
 ## 🚀 Tecnologias Utilizadas
 
